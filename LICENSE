@@ -23,4 +23,6 @@ SOFTWARE.
 
 ---
 
-tom-thumb.bdf: Copyright (c) Brian Swetland, licensed under MIT / CC0 / CC-BY
+bdf/15-Adobe-Helvetica.bdf: Copyright 1984-1989, 1994 Adobe Systems Incorporated.
+bdf/ter-powerline-x24b.bdf: From https://github.com/powerline/fonts
+bdf/tom-thumb.bdf: Copyright (c) Brian Swetland, licensed under MIT / CC0 / CC-BY
