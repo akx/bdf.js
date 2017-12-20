@@ -1,5 +1,4 @@
 const fs = require('fs');
-const bdf2json = require('./lib/bdf2json');
-const inData = fs.readFileSync(process.argv[2], 'UTF-8');
-const outData = bdf2json(inData);
-console.log(JSON.stringify(outData, null, 2));
+const parseBdf = require('./lib/parse-bdf');
+const jsonData = parseBdf(fs.readFileSync(process.argv[2], 'UTF-8'));
+console.log(JSON.stringify(jsonData, null, 2));
